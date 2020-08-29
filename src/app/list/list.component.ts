@@ -12,20 +12,22 @@ alert: boolean = false;
   constructor(private commonService: CommonService) { }
 
   ngOnInit() {
-    this.commonService.getRestaurantList().subscribe((response) => {
-      this.restaurantList = response;      
-    });
+    this.refreshRestaurantList();
   }
   deleteRestaurant(id) {
     this.commonService.deleteRestaurant(id).subscribe((response) => {
       this.alert = true;
       console.log("Deleted Successfully");
+      this.refreshRestaurantList();
     });
  }
  closeAlert(){
    this.alert = false;
-   this.commonService.getRestaurantList().subscribe((response) => {
-    this.restaurantList = response;      
-  });
+   this.refreshRestaurantList();
  }
-}
+  refreshRestaurantList() {
+    this.commonService.getRestaurantList().subscribe((response) => {
+      this.restaurantList = response;      
+    });
+  }
+ }

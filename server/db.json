@@ -1,12 +1,6 @@
 {
   "restaurant": [
     {
-      "name": "Mike Restaurant",
-      "email": "mike@mail.com",
-      "address": "United Kingdom",
-      "id": 1
-    },
-    {
       "name": "Zaika Restaurant",
       "email": "zaika@email.com",
       "address": "United States",
@@ -37,9 +31,9 @@
       "id": 6
     },
     {
-      "name": "Hotel Taj",
-      "email": "taj@mail.com",
-      "address": "Kolkata, Indiaa",
+      "name": "Restaurant Name",
+      "email": "email@email.com",
+      "address": "Indiaa",
       "id": 7
     }
   ]
