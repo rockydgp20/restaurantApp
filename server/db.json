@@ -1,0 +1,46 @@
+{
+  "restaurant": [
+    {
+      "name": "Mike Restaurant",
+      "email": "mike@mail.com",
+      "address": "United Kingdom",
+      "id": 1
+    },
+    {
+      "name": "Zaika Restaurant",
+      "email": "zaika@email.com",
+      "address": "United States",
+      "id": 2
+    },
+    {
+      "name": "Fast Food Center",
+      "email": "info@mail.com",
+      "address": "Durgapur, India",
+      "id": 3
+    },
+    {
+      "name": "City Restaurant",
+      "email": "info@email.com",
+      "address": "Durgapur, India",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "test",
+      "email": "email@email.com",
+      "address": "India"
+    },
+    {
+      "name": "Aminia Restaurant",
+      "email": "amina@mail.com",
+      "address": "Kolkata, India",
+      "id": 6
+    },
+    {
+      "name": "Hotel Taj",
+      "email": "taj@mail.com",
+      "address": "Kolkata, Indiaa",
+      "id": 7
+    }
+  ]
+}
